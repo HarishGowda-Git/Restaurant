@@ -1,8 +1,16 @@
 import React from 'react'
+import './App.css'
+import Navbar from './components/Navbar'
+import nav from './assets/Photos/hotel-background.jpg'
+
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+       <img src={nav} alt="" id='back-img'/>
+      <Navbar />
+    </>
   )
 }
 
