@@ -1,15 +1,15 @@
 import React from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
-import nav from './assets/Photos/hotel-background.jpg'
+
+import Body from './components/body'
+// import Carousel from './components/carousel'
 
 
 
 const App = () => {
   return (
     <>
-       <img src={nav} alt="" id='back-img'/>
-      <Navbar />
+      <Body />
     </>
   )
 }

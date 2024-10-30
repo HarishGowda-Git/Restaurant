@@ -1,9 +1,26 @@
 .navbar{
     width: 100vw;
-    background-color: black;
+    background-color: transparent;
     position: absolute;
     top: 0;
     z-index: 0;
     height: 20vh;
-    color:black;
+    opacity: 1;
+}
+button {
+    position: absolute;
+    z-index: 100;
+    opacity: 1;
+    color: red;
+    top: 5vh;
+    left: 88vw;
+    padding: auto;
+    justify-content: center;
+}
+
+#signup{
+    transition: transform  0.2s ease-in-out;
+}
+#signup:hover{
+    transform: scale(1.2);
 }
